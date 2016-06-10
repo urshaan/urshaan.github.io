@@ -32,7 +32,7 @@
         var isEmpty = function(){for (var i in lift_toWatch) {return false} return true}();
         if (!isEmpty) {
           liftAjax.lift_uriSuffix = undefined;
-        jQuery.ajax({ url : "/comet_request/" + Math.floor(Math.random() * 100000000000) + "/qyymg3c66y7doqgm1j40agtq" + "/" + lift_page, data : lift_toWatch, type : "GET", dataType : "script", timeout : 140000, cache : false, success : liftComet.lift_handlerSuccessFunc, error : liftComet.lift_handlerFailureFunc });
+        jQuery.ajax({ url : "/comet_request/" + Math.floor(Math.random() * 100000000000) + "/14goriufeddu8130wlr5qcyiit" + "/" + lift_page, data : lift_toWatch, type : "GET", dataType : "script", timeout : 140000, cache : false, success : liftComet.lift_handlerSuccessFunc, error : liftComet.lift_handlerFailureFunc });
               }
             }
           }})();
